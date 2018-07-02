@@ -12,27 +12,27 @@ let sleep = (ms) => new Promise (resolve => setTimeout (resolve, ms))
 
     // // instantiate the exchange
     // let gdax = new ccxt.gdax  ({ // ... or new ccxt.gdax ()
-    //     'apiKey': '92560ffae9b8a01d012726c698bcb2f1', // standard
-    //     'secret': '9aHjPmW+EtRRKN/OiZGjXh8OxyThnDL4mMDre4Ghvn8wjMniAr5jdEZJLN/knW6FHeQyiz3dPIL5ytnF0Y6Xwg==', 
-    //     'password': '6kszf4aci8r', // GDAX requires a password!
+    //     'apiKey': '', // standard
+    //     'secret': '', 
+    //     'password': '', // GDAX requires a password!
     // })
 
     // // use the testnet for GDAX
     // gdax.urls['api'] = 'https://api-public.sandbox.gdax.com'
 
     // let hitbtc = new ccxt.hitbtc ({
-    //     'apiKey': '18339694544745d9357f9e7c0f7c41bb',
-    //     'secret': '8340a60fb4e9fc73a169c26c7a7926f5',
+    //     'apiKey': '',
+    //     'secret': '',
 	// })
 	
 	let binance = new ccxt.binance ({
-        'apiKey': 'dXDedfjrsa13mrC8Dz1vrs4uygbkH7NginWxmvtHMgAUxweRCZEPwrGq8Yzv79Qp',
-        'secret': 'wo1rDpH3CupQEUbwIbRkLWVt8gMiHXiSGywreVoK3U6HpOHM1cBx6L32EduvCtoH',
+        'apiKey': '',
+        'secret': '',
 	})
 	
 	let huobi = new ccxt.huobipro ({
-        'apiKey': '9810bffb-2b047df2-196b4b34-2073c',
-        'secret': 'ec7ba247-8f2a2f93-1582d575-9d11c',
+        'apiKey': '',
+        'secret': '',
         verbose: true
     })
 
